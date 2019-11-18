@@ -39,10 +39,11 @@ input{
 	height: 45px;
 }
 
-form.submit{
-	background: #ff5722;
+.submit{
+	background: #40e0d0;
 	border-color: transparent;
 	color: #fff;
+	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -50,7 +51,7 @@ form.submit{
 	margin-top: 20px;
 }
 
-form.submit:hover{
-	background-color: #f44336;
+.submit:hover{
+	background-color: #00ffff;
 	cursor: pointer;
 }
