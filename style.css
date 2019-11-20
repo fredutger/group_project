@@ -26,6 +26,11 @@ body{
 	margin-bottom: 25px;
 }
 
+.about-title{
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
 .foot-care-guidelines{
 	margin-left: 10px;
 	margin-right: 10px;
@@ -139,6 +144,48 @@ body{
 }
 
 .plantar-fascitis{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.why-choose-me{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.qualifications_affiliations{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.cost_payment{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.photos{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.business_hours{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.services{
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 25px;
