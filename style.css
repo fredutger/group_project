@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background: linear-gradient(rgba(0, 0, 150, 0.5),rgba(0, 0, 50, 0.5)),url(stones-on-woman-s-feet-1274061.jpg);
+	background: #02ADC1;
 	background-size: cover;
 	background-position: center;
 	font-family: sans-serif;
@@ -21,19 +21,193 @@ body{
 .contact.title h2{
 	font-size: 16px;
 }
+.information-title{
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
+.about-title{
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
+.foot-care-guidelines{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.ingrown-toenail-prevention{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.proper-shoe-fit{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.arthritis{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.athletes-foot{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.bunions{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.callus_corns{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.hammer_claw_mallet_toes{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.cracked-heels{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.fungal-nails{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.gout{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.ingrown-nails{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.involuted-nails{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.neuropathy{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.plantar-warts{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.pad{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.plantar-fascitis{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.why-choose-me{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.qualifications_affiliations{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.cost_payment{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.photos{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.business_hours{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.services{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
 form{
 	margin-top: 50px;
 	transition: all 4s ease-in-out;
 }
+
 .form-control{
 	width: 600px;
 	background: transparent;
 	border: none;
 	outline: none;
 	border-bottom: 1px solid gray;
-	color: #f5f3f0;
+	color: #fff;
 	font-size: 18px;
 	margin-bottom: 16px;
+	margin-left: 350px;
+	margin-right: 350px;
 }
 
 input{
@@ -55,8 +229,4 @@ input{
 .submit:hover{
 	background-color: #00ffff;
 	cursor: pointer;
-}
-
-.p{
-	text-align: left;
 }
