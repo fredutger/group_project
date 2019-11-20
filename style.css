@@ -21,19 +21,146 @@ body{
 .contact.title h2{
 	font-size: 16px;
 }
+.information-title{
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
+.foot-care-guidelines{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.ingrown-toenail-prevention{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.proper-shoe-fit{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.arthritis{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.athletes-foot{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.bunions{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.callus_corns{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.hammer_claw_mallet_toes{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.cracked-heels{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.fungal-nails{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.gout{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.ingrown-nails{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.involuted-nails{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.neuropathy{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.plantar-warts{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.pad{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.plantar-fascitis{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
 form{
 	margin-top: 50px;
 	transition: all 4s ease-in-out;
 }
+
 .form-control{
 	width: 600px;
 	background: transparent;
 	border: none;
 	outline: none;
 	border-bottom: 1px solid gray;
-	color: #f5f3f0;
+	color: #fff;
 	font-size: 18px;
 	margin-bottom: 16px;
+	margin-left: 350px;
+	margin-right: 350px;
 }
 
 input{
