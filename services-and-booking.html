@@ -4,6 +4,7 @@
 	<title>Services and Booking</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="script" type="text/javascript" src="appointment.js">
 </head>
 <body>
 
@@ -36,5 +37,71 @@
 		</div>
 	</nav>
 
-</body>
-</html>
+	<form action="#" method="post" id="apptForm">
+
+<div class="header row">
+  <h2 class="">Request an Appointment</h2>
+</div><!-- row -->
+
+<div class="row">
+
+  <div class="inputs date col-4">
+    <label for="">Date</label><br>
+    <input type="date" id="" />
+  </div>
+
+  <div class="inputs time col-4">
+    <label for="">Time</label><br>
+    <input type="time" id="" />
+  </div>
+
+  <div class="inputs time-zone col-4">
+    <label for="">Time Zone</label><br>
+    <select>
+      <option>Select</option>
+      <option>Pacific</option>
+      <option>Mountain</option>
+      <option>Central</option>
+      <option>Eastern</option>
+      <option>Atlantic</option>
+      <option>Chamarro</option>
+      <option>Samoa</option>
+      <option>Hawaii-Aleutian</option>
+      <option>Alaska</option>
+    </select>
+  </div>
+
+</div><!-- row -->
+
+<div class="row">
+
+  <div class="inputs contact col-6">
+    <label for="contactNumber">Contact Number</label><br>
+    <input type="tel" id="contactNumber" />
+  </div>
+
+  <div class="inputs email col-6">
+    <label for="">Email</label><br>
+    <input type="email" id="" />
+  </div>
+
+</div><!-- row -->
+
+<div class="row">
+
+  <div class="inputs message col-12">
+    <label for="">Message</label><br>
+    <textarea></textarea>
+  </div>
+
+</div><!-- row -->
+
+<div class="row">
+  <div class="col-12">
+    <button type="submit">
+      <strong>Submit</strong>
+    </button>
+  </div>
+</div><!-- row -->
+
+</form>
