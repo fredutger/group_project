@@ -2,12 +2,16 @@ body{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background: #02ADC1;
+	background: #fff;
 	background-size: cover;
 	background-position: center;
 	font-family: sans-serif;
-	color: #fff;
+	color: #696969;
 }
+ h3 {
+	color: #444444;
+}
+
 .contact-title{
 	margin-top: 100px;
 	color: #fff;
@@ -156,6 +160,7 @@ body{
 	margin-bottom: 25px;
 	text-align: left;
 }
+
 
 .qualifications_affiliations{
 	margin-left: 10px;
