@@ -8,7 +8,7 @@ body{
 	font-family: sans-serif;
 	color: #696969;
 }
- h3 {
+ h2 {
 	color: #444444;
 }
 
@@ -236,118 +236,148 @@ input{
 	cursor: pointer;
 }
 
-/* grid*/
-* {
-    box-sizing: border-box;
-}
-.row::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-[class*="col-"] {
-    float: left;
-    padding: .938em;
-}
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-/* form */
-form {
-  width: 35em;
-  margin: 7% auto;
-  font-family: sans-serif;
-}
-
-h2 {
-  font-weight: bold;
-  color: deepskyblue;
-  border: .063em solid deepskyblue;
-  border-width: .1em;
-  width: 60%;
-  padding: .2em;
-  border-radius: .15em;
-}
-
-label {
-  font-size: .9em;
-}
-
-input[type="date"], input[type="time"], select, input[type="tel"], input[type="email"], input[type="text"] {
-  borde: none;
-  border: .063em solid #D6D2D2;
-  border-radius: 3px;
+html {
+  position: relative;
+  position: absolute;
   width: 100%;
-  font-size: 1.15em;
-  height: 1.8em;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 
-.time-zone select {
-  font-size: 1.15em;
+section.calendar {
+  background-color: #29323f;
+  font-family: 'Dosis', sans-serif;
+  color: #fff;
+  width: 400px;
+  padding: 45px;
+  top: 50%;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 465px;
 }
-
-select {
-  font-size: .95em;
-}
-
-textarea {
-  width: 100%;
-  height: 10em;
-  border-radius: 3px;
-  resize: none;
-  border-color: #D6D2D2;
-}
-
-.header {
-  padding-left: .938em;
-}
-
-button {
-  float: left;
-}
-
-button {
-  display: inline-block;
-  width: 10em;
+section.calendar h1 {
   text-align: center;
-  color: white;
-  text-decoration: none;
-  border-radius: 0.2em;
-  border: none;
-  height: 3em;
-  font-size: 0.9em;
-  background-color: #F44242;
-  line-height: 3em;
+  color: #fcee6d;
+  margin: 0 0 30px 0;
+}
+section.calendar form {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+section.calendar form label.weekday {
+  display: inline-block;
+  width: 25px;
+  margin: 8px;
+  text-align: center;
+  color: #999;
+}
+section.calendar form form {
+  margin: 0;
+  padding: 0;
+}
+section.calendar form label.day {
+  display: inline-block;
+  width: 25px;
+  margin: 8px;
+}
+section.calendar form label.day span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  margin: -2px 0 0 -2px;
+  border-radius: 50%;
+  border: 2px solid #29323f;
+  text-align: center;
+  transition: all .2s linear;
+  cursor: pointer;
+}
+section.calendar form label.day span:hover {
+  border-color: #e7d84f;
+}
+section.calendar form label.day em {
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border-color: #29323f;
+  width: 3px;
+  height: 3px;
+  background-color: #685e02;
+  margin-left: 11px;
+  margin-top: 2px;
+  opacity: 0;
+  transition: all .2s linear;
+}
+section.calendar form label.day input[type=text] {
+  border: 0;
+  opacity: 0;
+  position: absolute;
+  margin-top: 40px;
+  left: -45px;
+  width: 380px;
+  height: 1px;
+  padding: 0;
+  outline: none;
+  font-size: 16px;
+  transition: height .2s linear, opacity .2s linear, color .02s linear;
+  color: #fff;
+}
+section.calendar form label.day input[type=text]:focus {
+  opacity: 1;
+  height: 35px;
+  padding: 10px 40px;
+  left: -45px;
+  width: 300px;
+  color: #29323f;
+}
+section.calendar form label.day input[type=text]:focus + span {
+  color: #fcee6d;
+  border-color: #fcee6d;
+  background: #fcee6d;
+  color: #29323f;
+  font-weight: bold;
+  margin-bottom: 65px;
+}
+section.calendar form label.day input[type=text]:focus ~ em {
+  border-radius: 0;
+  border: 5px solid transparent;
+  background: transparent;
+  border-bottom-color: white;
+  margin-top: -62px;
+  margin-left: 7px;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  opacity: 1;
+}
+section.calendar form label.day input[type=text]:valid ~ em {
+  display: inline-block;
+  opacity: 1;
+}
+section.calendar form label.day.invalid {
+  opacity: 0;
+  width: 25px;
+  height: 25px;
+}
+section.calendar form label.day.invalid span, section.calendar form label.day.invalid input {
+  display: none;
+}
+section.calendar div.clearfix {
+  clear: both;
+}
+section.calendar div.hidden {
+  display: none;
 }
 
-button:hover {
-    background-color: #F55A5A;
-    box-shadow: 0 0.75em 1em 0 rgba(0,0,0,0.24), 0 1.063em 3.125em 0 rgba(0,0,0,0.19);
-}
-
-button:active {
-  background-color: #D63A3A;
-}
-
-select {
-  -moz-appearanc: none;
-  -webkit-appearanc: none;
-}
-
-.valid {
-  border: .063em solid lightgreen;
-}
-
-.invalid {
-  border: .063em solid red;
+aside{
+	float: left;
 }
