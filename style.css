@@ -408,3 +408,7 @@ a.btn.btn-primary{
 	background-color: #9DFE3D;
 	border: #9DFE3D;
 }
+
+.col{
+	text-align: left;
+}
