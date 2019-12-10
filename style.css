@@ -220,7 +220,7 @@ input{
 }
 
 .submit{
-	background: #40e0d0;
+	background: #9DFE3D;
 	border-color: transparent;
 	color: #fff;
 	text-align: center;
@@ -262,7 +262,7 @@ section.calendar {
 }
 section.calendar h1 {
   text-align: center;
-  color: #fcee6d;
+  color: #9DFE3D;
   margin: 0 0 30px 0;
 }
 section.calendar form {
@@ -340,9 +340,9 @@ section.calendar form label.day input[type=text]:focus {
   color: #29323f;
 }
 section.calendar form label.day input[type=text]:focus + span {
-  color: #fcee6d;
-  border-color: #fcee6d;
-  background: #fcee6d;
+  color: #9DFE3D;
+  border-color: #9DFE3D;
+  background: #9DFE3D;
   color: #29323f;
   font-weight: bold;
   margin-bottom: 65px;
@@ -395,4 +395,14 @@ aside{
 
 a{
 	color: #696969;
+}
+
+button.btn.btn-primary{
+	background-color: #9DFE3D;
+	border: #9DFE3D;
+}
+
+a.btn.btn-primary{
+	background-color: #9DFE3D;
+	border: #9DFE3D;
 }
