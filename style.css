@@ -380,7 +380,8 @@ section.calendar div.hidden {
 }
 
 aside{
-	float: left;
+	float: center;
+	margin-top: 600px;
 }
 
 .panel-group {
