@@ -388,6 +388,11 @@ aside{
 
 .panel-heading{
 	background-color: #E8E8E8;
-	outline-style: solid;
+	border-style: outset;
+	border-width: 2px;
 	text-align: center;
+}
+
+a{
+	color: #696969;
 }
