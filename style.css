@@ -202,6 +202,7 @@ form{
 	transition: all 4s ease-in-out;
 }
 
+
 .form-control{
 	width: 600px;
 	background: transparent;
@@ -211,8 +212,8 @@ form{
 	color: #fff;
 	font-size: 18px;
 	margin-bottom: 16px;
-	margin-left: 350px;
-	margin-right: 350px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 input{
